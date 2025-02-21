@@ -24,7 +24,7 @@
 }
 .header .logo span {
     font-size: 1.5rem;
-    color: rgb(2, 2, 46);
+    color: #fff;
     font-weight: bold;
 }
 
@@ -32,13 +32,68 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
     font-size: 1.3rem;
     
 }
 
 .header .navbar a {
-    color: rgb(2, 2, 46);
+    color: #fff;
     margin: 0 10px;
     cursor: pointer;
+    position: relative;
+}
+
+
+.nav_toggle{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header .navbar{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #4e4c4c;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%; 
+        height: 100vh;    
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+    .header .navbar a {
+        color: #fff;
+        
+        cursor: pointer;
+    }
+    .header  .navbar.open{
+        transform: translateX(0) !important
+    }
+    .header  .nav_toggle{
+        display: flex !important;
+        flex-direction: column;                
+        margin: 15px;
+        cursor: pointer;
+    }
+    .header  .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;             
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+    .header  .nav_toggle.open > span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .header  .nav_toggle.open > span:nth-child(2){
+        display: none;
+    }
+    .header  .nav_toggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
 }
