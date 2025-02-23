@@ -48,6 +48,13 @@
 .nav_toggle{
     display: none;
 }
+@media (max-width: 924px) {
+    .header .navbar {
+        
+        font-size: 1.2rem;
+        
+    }
+}
 
 @media (max-width: 768px) {
     .header .navbar{
