@@ -13,8 +13,8 @@ const Header = () => {
             <span>JOFRANDEV</span>
         </div>
         <nav className={`navbar ${isOpen && "open"}`}>
-            <a href="">Inicio</a>
-            <a href="">Proyectos</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
             <a href="">Acerca de mí</a>
             <a href="">Contacto</a>
         </nav>
