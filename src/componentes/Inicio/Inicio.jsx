@@ -1,6 +1,6 @@
 import React from "react";
 import "./inicio.css"
-import jofranicon from '../../logo/jofrandev.png';
+import jofranicon from '../../logo/jofrandev.jpg';
 import github from '../../iconos/github.svg';
 import linkedin from '../../iconos/linkedin.svg';
 import Twitter from '../../iconos/twitter.svg';   

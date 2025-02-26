@@ -4,6 +4,7 @@ import Header from './componentes/Header/header';
 import Inicio from './componentes/Inicio/Inicio';
 import Proyectos from './componentes/proyectos/proyectos';
 import './App.css';
+import Acerca from './componentes/Acerca/acerca';
 
 function App() {
   return (
@@ -11,6 +12,13 @@ function App() {
       <Header />
       <Inicio />
       <Proyectos />
+      <Acerca />
+      <footer>
+        <div className="container__footer">
+          <p>© 2021 JofranDev. Todos los derechos reservados.</p>
+          <a href="https://www.linkedin.com/in/jofran-ramirez-1b1a6a1b5/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </footer>
     </div>
     
   );

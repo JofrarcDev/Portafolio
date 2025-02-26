@@ -1,0 +1,111 @@
+.container__acerca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 1rem;
+    
+}
+
+.container__acerca .acerca__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0951bd;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.container__acerca .container__contenido-acerca {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    margin: 0 60px;
+}
+.container__acerca .container__contenido-acerca article{
+    margin-left: 10px;
+    width: 400px;
+}
+.container__acerca .container__contenido-acerca article h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.container__acerca .container__contenido-acerca article p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.container__acerca .container__contenido-acerca article .container__boton {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.container__acerca .container__contenido-acerca article .container__boton a {
+    background-color:  #0951bd;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+}
+.container__acerca .container__contenido-acerca article .container__boton a:hover {
+    box-shadow: 2px 1px 10px 1px #0951bd;
+}
+.container__acerca .container__contenido-acerca .container__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.container__acerca .container__contenido-acerca .container__imagen img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 1px 10px 1px #0951bd;
+}
+
+@media (max-width: 924px){
+    .container__acerca .container__contenido-acerca .container__imagen {
+        margin-top: 4rem;
+        width: 270px;
+        height: 270px;
+    }
+    .container__acerca .container__contenido-acerca article h3 {
+        font-size: 1.8rem;
+        margin-bottom: 12px;
+    }
+    .container__acerca .container__contenido-acerca article p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+   
+}
+@media (max-width: 884px){
+  
+    .container__acerca .acerca__titulo {
+        margin-bottom: 0;
+        margin-top: 8rem;
+    }
+    .container__acerca .container__contenido-acerca {
+        display: flex;
+        padding: 20px;
+      
+      
+    }
+   
+}
+
+@media (max-width: 810px){
+    
+}
+@media (max-width: 768px) {
+    .container__acerca .container__contenido-acerca {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+}

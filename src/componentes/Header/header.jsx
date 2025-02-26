@@ -1,7 +1,7 @@
 
 
 import React, {useState} from "react";
-import jofranicon from '../../logo/jofrandev.png';
+import jofranicon from '../../logo/jofrandev.jpg';
 import './header.css';  // Import the CSS file
 // Create a functional component
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
         <nav className={`navbar ${isOpen && "open"}`}>
             <a href="#inicio">Inicio</a>
             <a href="#proyectos">Proyectos</a>
-            <a href="">Acerca de mí</a>
+            <a href="#acerca">Acerca de mí</a>
             <a href="">Contacto</a>
         </nav>
         <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
