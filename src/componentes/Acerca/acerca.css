@@ -106,6 +106,7 @@
     .container__acerca .container__contenido-acerca {
         display: flex;
         flex-direction: column;
+        padding: 40px;
         margin-top: 0;
     }
 }
