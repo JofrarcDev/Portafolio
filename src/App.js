@@ -5,6 +5,7 @@ import Inicio from './componentes/Inicio/Inicio';
 import Proyectos from './componentes/proyectos/proyectos';
 import './App.css';
 import Acerca from './componentes/Acerca/acerca';
+import Contacto from './componentes/Contacto/Contacto';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Inicio />
       <Proyectos />
       <Acerca />
+      <Contacto />
       <footer>
         <div className="container__footer">
           <p>© 2021 JofranDev. Todos los derechos reservados.</p>
