@@ -16,7 +16,7 @@ const Header = () => {
             <a href="#inicio">Inicio</a>
             <a href="#proyectos">Proyectos</a>
             <a href="#acerca">Acerca de mí</a>
-            <a href="">Contacto</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
               <span></span>
