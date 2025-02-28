@@ -98,3 +98,11 @@
    
 } 
 
+@media (max-width: 576px) {
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja{
+        
+        width: 320px;
+        
+    }
+}
+

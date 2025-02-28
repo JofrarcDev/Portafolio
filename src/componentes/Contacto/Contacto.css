@@ -94,3 +94,9 @@
         width: 400px;
     }
 }
+
+@media (max-width: 576px) {
+    .container__contacto .form__contacto{
+        width: 350px;
+    }
+}
