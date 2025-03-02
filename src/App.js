@@ -6,6 +6,7 @@ import Proyectos from './componentes/proyectos/proyectos';
 import './App.css';
 import Acerca from './componentes/Acerca/acerca';
 import Contacto from './componentes/Contacto/Contacto';
+import Habilidades from './componentes/habilidades/Habilidades';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Inicio />
       <Proyectos />
       <Acerca />
+      <Habilidades />
       <Contacto />
       <footer>
         <div className="container__footer">

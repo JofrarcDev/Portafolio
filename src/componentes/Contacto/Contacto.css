@@ -4,9 +4,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #4e4c4c;
-    padding-top: 2rem;
-    margin-top: 10rem;
+    background-color: #0951bd;
+    padding-top: 1rem;
+    
 }
 
 .container__contacto h2{
@@ -28,7 +28,7 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 1px 10px 1px #000408;
 }
 
 .container__contacto .form__contacto .contacto__form-div{
@@ -46,7 +46,7 @@
     height: 100%;
     padding: 1.5rem;
     font-size: 1rem;
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid #0951bd;
     background: none;
     border-radius: 5px;
     outline: none;
@@ -59,6 +59,7 @@
     left: 1.25rem;
     padding: 0.25rem;
     font-size: 1rem;
+    color: #0951bd;
     background: #fff;
     z-index: 10;
     transition: 0.3s;
@@ -74,8 +75,8 @@
 }
 
 .enviar{
-    background-color: #4e4c4c;
-    border: 1px solid #4e4c4c;
+    background-color: #0951bd;
+    border: 1px solid #0951bd;
     color: #fff;
     padding: 0.5rem 2rem;
     border-radius: 5px;
@@ -85,8 +86,8 @@
 }
 .enviar:hover{
     background-color: #fff;
-    color: #4e4c4c;
-    border: 1px solid #4e4c4c;
+    color: #0951bd;
+    border: 1px solid #0951bd;
 }
 
 @media (max-width: 768px) {

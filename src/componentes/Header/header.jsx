@@ -1,7 +1,7 @@
 
 
 import React, {useState} from "react";
-import jofranicon from '../../logo/jofrandev.jpg';
+import jofranicon from '../../logo/jofrandev.png';
 import './header.css';  // Import the CSS file
 // Create a functional component
 const Header = () => {
