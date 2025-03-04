@@ -44,6 +44,9 @@
     cursor: pointer;
     position: relative;
 }
+.header .navbar a:hover {
+    color: rgb(28, 28, 137);
+}
 
 
 .nav_toggle{
@@ -84,10 +87,7 @@
         width: 100%;
     }
 
-    .header .navbar a:hover {
-        background: #fff;
-        color: #0951bd;
-    }
+   
     .header  .navbar.open{
         transform: translateX(0) !important
     }

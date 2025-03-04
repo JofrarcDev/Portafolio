@@ -1,5 +1,4 @@
 import React from 'react';
-import jofranicon from './logo/jofrandev.png';
 import Header from './componentes/Header/header';
 import Inicio from './componentes/Inicio/Inicio';
 import Proyectos from './componentes/proyectos/proyectos';
@@ -7,6 +6,7 @@ import './App.css';
 import Acerca from './componentes/Acerca/acerca';
 import Contacto from './componentes/Contacto/Contacto';
 import Habilidades from './componentes/habilidades/Habilidades';
+import Hblandas from './componentes/Hblandas/Hblandas';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Proyectos />
       <Acerca />
       <Habilidades />
+      <Hblandas />
       <Contacto />
       <footer>
         <div className="container__footer">
