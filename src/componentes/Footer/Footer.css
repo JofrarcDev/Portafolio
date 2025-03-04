@@ -1,0 +1,14 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__footer .footer__titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0951bd;
+    margin-bottom: 1rem;
+    display: flex;
+}
