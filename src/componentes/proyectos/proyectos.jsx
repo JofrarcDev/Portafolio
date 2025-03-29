@@ -17,11 +17,11 @@ const Proyectos = () => {
                     codigo="https://github.com/JofrarcDev/Encriptador"/>
 
                     <Proyecto 
-                    nombre="Encripador de Texto" 
-                    imagen="01" 
+                    nombre="Proyecto personal" 
+                    imagen="02" 
                     descripcion="Este proyecto te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación de manera eficiente."
-                    link="https://jofrarcdev.github.io/Encriptador/"
-                    codigo="https://github.com/JofrarcDev/Encriptador"/>
+                    link="https://proyecto-personal-three.vercel.app/"
+                    codigo="https://github.com/JofrarcDev/proyecto-personal"/>
 
                     <Proyecto 
                     nombre="Encripador de Texto" 
