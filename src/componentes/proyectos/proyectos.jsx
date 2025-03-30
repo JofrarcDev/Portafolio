@@ -19,7 +19,7 @@ const Proyectos = () => {
                     <Proyecto 
                     nombre="Proyecto personal" 
                     imagen="02" 
-                    descripcion="Este proyecto te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación de manera eficiente."
+                    descripcion="Este proyecto es de una empresa muliservicios, donde puedes ver los servicios que ofrece la empresa y un formulario de contacto. Utiliza Astro y CSS para su desarrollo."
                     link="https://proyecto-personal-three.vercel.app/"
                     codigo="https://github.com/JofrarcDev/proyecto-personal"/>
 
