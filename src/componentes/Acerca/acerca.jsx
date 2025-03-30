@@ -13,7 +13,9 @@ const Acerca = () => {
         <p>Soy un desarrollador web autodidacta. Esta nueva profesión me hace sentir capaz. Me encanta aprender cosas nuevas y compartir mis conocimientos con los demás.</p>
         <p>Tengo experiencia en el trabajo en equipo, supervisando personal y compartiendo mis conocimientos para solucionar problemas en corto tiempo.</p>
           <div className="container__boton">
-            <a href="#" className="boton">Descargar CV</a>
+            <a href="https://drive.google.com/file/d/15dTIvtKlhtjzHmwy3Ub8GI7tv-7f-fIL/view?usp=sharing"
+            aria="noreferrer" target="_blank"
+            className="boton">Descargar CV</a>
           </div>
         </article>
         <figure className='container__imagen'>
