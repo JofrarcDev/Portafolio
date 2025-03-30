@@ -8,9 +8,10 @@ const Acerca = () => {
       <h2 className="acerca__titulo">Acerca de mí</h2>
       <div className="container__contenido-acerca">
         <article>
-          <p>Soy un desarrollador web autodidacta, apasionado por la tecnología y el desarrollo web. Me encanta aprender cosas nuevas y compartir mis conocimientos con los demás.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum debitis perferendis optio dolor doloribus corporis! Quas tenetur iure modi.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi architecto accusamus distinctio asperiores ducimus. Quisquam expedita unde excepturi officia?</p>
+          
+        <p>Pasé de ser electricista a trabajar en un taller de reparación de computadoras, luego a ser maestro carpintero en la creación de muebles. Ahora me considero un desarrollador web.</p>
+        <p>Soy un desarrollador web autodidacta. Esta nueva profesión me hace sentir capaz. Me encanta aprender cosas nuevas y compartir mis conocimientos con los demás.</p>
+        <p>Tengo experiencia en el trabajo en equipo, supervisando personal y compartiendo mis conocimientos para solucionar problemas en corto tiempo.</p>
           <div className="container__boton">
             <a href="#" className="boton">Descargar CV</a>
           </div>
