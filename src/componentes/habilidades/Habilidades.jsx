@@ -28,8 +28,8 @@ const Habilidades = () => {
                     <p>Node</p>
                 </div>
                 <div className="habilidades__skill">
-                    <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt="mongo"/>
-                    <p>MongoDB</p>
+                    <img src="https://img.icons8.com/color/96/000000/python.png" alt="mongo"/>
+                    <p>Python</p>
                 </div>
                 <div className="habilidades__skill">
                     <img src="https://img.icons8.com/color/96/000000/git.png" alt="git"/>
