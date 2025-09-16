@@ -12,13 +12,13 @@ const Inicio = () => {
                 <h1 className="titulo__inicio">¡Hola! Soy <span>Jofrannys</span></h1>
                 <p className="parrafo__inicio">Desarrollador web front-end.</p>
                 <div className="redes__sociales">
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/JofrarcDev" target="_blank" rel="noreferrer">
                             <img src={github} alt="GitHub" className="icono__redes" />
                         </a>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/jofrannys-arcila-75a9a967/" target="_blank" rel="noreferrer">
                             <img src={linkedin} alt="Linkedin" className="icono__redes" />
                         </a>
-                        <a href="#" target="_blank" rel="noreferrer">
+                        <a href="https://x.com/jofranDev" target="_blank" rel="noreferrer">
                             <img src={Twitter} alt="Twitter" className="icono__redes" />
                         </a>
                     
