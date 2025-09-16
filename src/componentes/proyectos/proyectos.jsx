@@ -24,11 +24,11 @@ const Proyectos = () => {
                     codigo="https://github.com/JofrarcDev/proyecto-personal"/>
 
                     <Proyecto 
-                    nombre="Encripador de Texto" 
-                    imagen="01" 
-                    descripcion="Este proyecto te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación de manera eficiente."
+                    nombre="Clima" 
+                    imagen="03" 
+                    descripcion="Clima es una app sencilla y funcional que permite al usuario ingresar el nombre de una ciudad y obtener información meteorológica actualizada."
                     link="https://jofrarcdev.github.io/Encriptador/"
-                    codigo="https://github.com/JofrarcDev/Encriptador"/>
+                    codigo="https://clima-gskk.onrender.com/"/>
 
                     <Proyecto 
                     nombre="Encripador de Texto" 
