@@ -2,9 +2,9 @@
     position: fixed;
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 70px;
+    padding: 10px;
     background-color: #0951bd;
     color: #fff;
     box-shadow: 2px 1px 10px 1px #000408;
