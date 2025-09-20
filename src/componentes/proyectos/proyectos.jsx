@@ -31,11 +31,11 @@ const Proyectos = () => {
                     codigo="https://github.com/JofrarcDev/App-Clima"/>
 
                     <Proyecto 
-                    nombre="Encripador de Texto" 
-                    imagen="01" 
-                    descripcion="te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación."
-                    link="https://jofrarcdev.github.io/Encriptador/"
-                    codigo="https://github.com/JofrarcDev/Encriptador"/>
+                    nombre="Mi Tienda" 
+                    imagen="04" 
+                    descripcion="na aplicación de e-commerce desarrollada en React que permite a los usuarios explorar productos, ver detalles y gestionar un carrito de compras."
+                    link="https://mi-tienda-lemon.vercel.app/"
+                    codigo="https://github.com/JofrarcDev/MiTienda"/>
 
                    
                     
