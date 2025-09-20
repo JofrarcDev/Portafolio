@@ -12,28 +12,28 @@ const Proyectos = () => {
                     <Proyecto 
                     nombre="Encripador de Texto" 
                     imagen="01" 
-                    descripcion="Este proyecto te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación de manera eficiente."
+                    descripcion="Te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación."
                     link="https://jofrarcdev.github.io/Encriptador/"
                     codigo="https://github.com/JofrarcDev/Encriptador"/>
 
                     <Proyecto 
                     nombre="Proyecto personal" 
                     imagen="02" 
-                    descripcion="Este proyecto es de una empresa muliservicios, donde puedes ver los servicios que ofrece la empresa y un formulario de contacto. Utiliza Astro y CSS para su desarrollo."
+                    descripcion="Es de una Empresa muliservicios, donde puedes ver los servicios que ofrece y un formulario de contacto. Utiliza Astro y CSS para su desarrollo."
                     link="https://proyecto-personal-three.vercel.app/"
                     codigo="https://github.com/JofrarcDev/proyecto-personal"/>
 
                     <Proyecto 
                     nombre="Clima" 
                     imagen="03" 
-                    descripcion="Clima es una app sencilla y funcional que permite al usuario ingresar el nombre de una ciudad y obtener información meteorológica actualizada."
+                    descripcion="Es una app sencilla y funcional que te permite ingresar el nombre de una ciudad y obtener información meteorológica actualizada."
                     link="https://clima-gskk.onrender.com/"
                     codigo="https://github.com/JofrarcDev/App-Clima"/>
 
                     <Proyecto 
                     nombre="Encripador de Texto" 
                     imagen="01" 
-                    descripcion="Este proyecto te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación de manera eficiente."
+                    descripcion="te permite convertir texto normal en texto encriptado y viceversa. Utiliza JavaScript para realizar la encriptación y desencriptación."
                     link="https://jofrarcdev.github.io/Encriptador/"
                     codigo="https://github.com/JofrarcDev/Encriptador"/>
 

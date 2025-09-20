@@ -19,7 +19,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000408;
 }
 .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas{
     display: flex;
@@ -41,10 +41,17 @@
     align-items: center;
     text-align: center;
 }
-
+.contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .proyecto__figura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    
+}
 .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja img{
     width: 100%;
-    height: 200px;
+
     object-fit: cover;
     border-radius: 10px;
     background-color: #000408;
@@ -86,6 +93,7 @@
     border: 1px solid #0951bd;
 }
 
+
 @media (max-width: 840px){
     .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas{
         flex-direction: column;
@@ -98,24 +106,63 @@
    
 } 
 
+
 @media (max-width: 576px) {
     .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja{
         
-        width: 320px;
+        width: 100%;
+        height: 200px;
         
     }
     .contenedor__proyectos .contenedor__proyectos-seccion h2 {
         font-size: 1.6rem;
     }
-    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja h3{
-        font-size: 1.3rem;
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
-    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja p{
-        font-size: 0.9rem;
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .proyecto__figura{
+        width: 40%;
+        height: 100px;
+    }
+    .contenedor__detalles .proyecto__figura .proyecto__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .contenedor__texto{
+        width: 50%;
+    }
+    
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .contenedor__texto h3{
+        font-size: 1rem;
+    }
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .contenedor__texto p{
+        font-size: 0.7rem;
     }
     .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja a{
         padding: 8px 15px;
         font-size: 0.8rem;
+    }
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .proyecto__caja-botones{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width: 406px){
+        .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .proyecto__caja-botones a{
+            padding: 5px 10px;
+            font-size: 0.7rem;
+    }
+    .contenedor__proyectos .contenedor__proyectos-seccion .contenedor__proyectos-cajas .proyecto__caja .contenedor__detalles .contenedor__texto h3{
+        font-size: 0.8rem;
+        text-align: left;
     }
 }
 
