@@ -9,7 +9,7 @@ const Inicio = () => {
     return (
         <main className="contenedor__inicio" id="inicio">
             <section className="contenedor__texto">
-                <h1 className="titulo__inicio">¡Hola! Soy <span>Jofrannys</span></h1>
+                <h1 className="titulo__inicio">¡Hola! Soy <span>JofranDev</span></h1>
                 <p className="parrafo__inicio">Desarrollador web front-end.</p>
                 <div className="redes__sociales">
                         <a href="https://github.com/JofrarcDev" target="_blank" rel="noreferrer">

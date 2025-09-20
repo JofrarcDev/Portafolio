@@ -53,7 +53,8 @@
 }
 
 .contenedor__inicio .contenedor__imagen {
-    width: 300px;
+    
+    max-width: 500px;
     height: 300px;
     border-radius: 50%;
    
@@ -74,7 +75,16 @@
     }
 }
 
-
+@media(max-width: 1200px) {
+    .contenedor__inicio {
+        padding: 40px;
+    }
+    .contenedor__inicio .contenedor__imagen {
+        width: 350px;
+        height: 350px;
+        
+    } 
+}
 @media (max-width: 884px){
     .contenedor__inicio .contenedor__imagen {
         width: 300px;
