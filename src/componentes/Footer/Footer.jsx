@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
     <div className="container__footer">
         <div className="footer__titulo">
-            <h2>Jofrannys Arcila</h2>
+            <h2>JofranDev</h2>
             <span>Hacemos tu proyectos realidad <i class="fa-solid fa-copyright"></i> 2025</span>
         </div>
         <div className="footer__nav">
