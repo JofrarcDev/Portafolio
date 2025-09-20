@@ -24,11 +24,11 @@ const Footer = () => {
                 <a href="#contacto">Contacto</a>
             </nav>
             <div className="footer__nav-social">
-                <a href="https://www.facebook.com/jofrannys.arcila" target="_blank" rel="noreferrer">
-                    <i className="fab fa-facebook"></i> Facebook
+                <a href="https://github.com/JofrarcDev" target="_blank" rel="noreferrer">
+                    <i className="fab fa-github"></i> GitHub
                 </a>
-                <a href="https://www.instagram.com/jofrannysarcila/" target="_blank" rel="noreferrer">
-                    <i className="fab fa-instagram"></i> Instagram
+                <a href="https://x.com/jofranDev" target="_blank" rel="noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i> Twitter
                 </a>
                 <a href="https://www.linkedin.com/in/jofrannys-arcila-6b6a6b1a2/" target="_blank" rel="noreferrer">
                     <i className="fab fa-linkedin"></i> Linkedin
