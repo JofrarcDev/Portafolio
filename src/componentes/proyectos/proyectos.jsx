@@ -33,7 +33,7 @@ const Proyectos = () => {
                     <Proyecto 
                     nombre="Mi Tienda" 
                     imagen="04" 
-                    descripcion="na aplicación de e-commerce desarrollada en React que permite a los usuarios explorar productos, ver detalles y gestionar un carrito de compras."
+                    descripcion="Una aplicación de e-commerce desarrollada en React que permite a los usuarios explorar productos, ver detalles y gestionar un carrito de compras."
                     link="https://mi-tienda-lemon.vercel.app/"
                     codigo="https://github.com/JofrarcDev/MiTienda"/>
 
