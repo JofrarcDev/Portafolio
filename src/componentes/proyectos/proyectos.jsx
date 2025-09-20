@@ -17,7 +17,7 @@ const Proyectos = () => {
                     codigo="https://github.com/JofrarcDev/Encriptador"/>
 
                     <Proyecto 
-                    nombre="Proyecto personal" 
+                    nombre="SuperServi" 
                     imagen="02" 
                     descripcion="Es de una Empresa muliservicios, donde puedes ver los servicios que ofrece y un formulario de contacto. Utiliza Astro y CSS para su desarrollo."
                     link="https://proyecto-personal-three.vercel.app/"
