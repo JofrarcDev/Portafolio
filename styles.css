@@ -579,24 +579,6 @@ body {
     transform: translateY(-2px);
 }
 
-.btn-cyber-sm {
-    padding: 0.5rem 1rem;
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    color: var(--primary-cyan);
-    border: 1px solid var(--primary-cyan);
-    background: rgba(0, 240, 255, 0.05);
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all var(--transition-fast);
-}
-
-.btn-cyber-sm:hover {
-    background: var(--primary-cyan);
-    color: var(--bg-dark);
-    box-shadow: 0 0 12px var(--primary-cyan);
-}
-
 /* --------------------------------------------------------------------------
    06. HERO SECTION
    -------------------------------------------------------------------------- */
@@ -1640,9 +1622,6 @@ body {
 
 @media (max-width: 768px) {
     .desktop-nav {
-        display: none;
-    }
-    .header-actions .btn-cyber-sm {
         display: none;
     }
     .header-container {

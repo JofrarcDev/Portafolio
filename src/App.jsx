@@ -392,7 +392,6 @@ function App() {
             </ul>
           </nav>
           <div className="header-actions">
-            <a href="#contacto" className="btn-cyber-sm"><i className="fa-solid fa-terminal" /> Terminal</a>
             <button
               id="hamburger-btn"
               className={`hamburger-btn ${menuOpen ? 'active' : ''}`}
