@@ -5,6 +5,7 @@ const navigation = [
   ['inicio', 'Inicio', 'fa-terminal'],
   ['sobre-mi', 'Sobre Mí', 'fa-user-ninja'],
   ['proyectos', 'Proyectos', 'fa-code-branch'],
+  ['informes', 'Informes', 'fa-file-lines'],
   ['certificados', 'Certificados', 'fa-certificate'],
   ['contacto', 'Contacto', 'fa-satellite-dish'],
 ];
@@ -75,6 +76,33 @@ const projects = [
     details: 'Entorno de simulación de ingeniería social con paneles estadísticos de concientización.',
     technologies: 'Fullstack JS, Chart.js, Express',
     url: 'https://github.com/jofrandev/phishguard-platform',
+  },
+];
+
+const reports = [
+  {
+    badge: 'ANÁLISIS DE RED',
+    icon: 'fa-wave-square',
+    title: 'Análisis de tráfico de red',
+    description:
+      'Informe sobre la inspección de tráfico TCP/UDP, detección de anomalías de protocolo y señales que ayudan a identificar posibles incidentes de seguridad.',
+    url: 'https://github.com/jofrandev/netpulse-ids',
+  },
+  {
+    badge: 'ANÁLISIS SIEM',
+    icon: 'fa-chart-line',
+    title: 'Correlación de eventos y logs',
+    description:
+      'Análisis de eventos de autenticación y registros de servicios para reconocer patrones sospechosos y apoyar la investigación desde un entorno defensivo.',
+    url: 'https://github.com/jofrandev/sentinellog-siem',
+  },
+  {
+    badge: 'INTELIGENCIA OSINT',
+    icon: 'fa-globe',
+    title: 'Monitoreo de exposición digital',
+    description:
+      'Análisis de fuentes abiertas para identificar exposición de activos y organizar hallazgos de inteligencia de amenazas de forma responsable.',
+    url: 'https://github.com/jofrandev/osint-crawler',
   },
 ];
 
@@ -504,9 +532,34 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id="informes" className="section informes-section">
+          <div className="container">
+            <SectionHeading tag="// 04. INVESTIGACIÓN Y HALLAZGOS" title="Informes y" highlight="Análisis" subtitle="Análisis de seguridad y hallazgos documentados en repositorios de GitHub" />
+            <div className="reports-grid">
+              {reports.map((report) => (
+                <article className="project-card report-card glow-box" key={report.title}>
+                  <div className="card-badge">{report.badge}</div>
+                  <div className="project-icon-wrapper"><i className={`fa-solid ${report.icon}`} /></div>
+                  <h3 className="project-title">{report.title}</h3>
+                  <p className="project-desc">{report.description}</p>
+                  <div className="report-rating" role="img" aria-label="Calificación: 5 de 5 estrellas">
+                    {Array.from({ length: 5 }, (_, index) => (
+                      <i className="fa-solid fa-star" key={index} aria-hidden="true" />
+                    ))}
+                  </div>
+                  <div className="project-actions">
+                    <a href={report.url} target="_blank" rel="noopener noreferrer" className="btn-github"><i className="fa-brands fa-github" /> Ver en GitHub</a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="certificados" className="section certificados-section">
           <div className="container">
-            <SectionHeading tag="// 04. CREDENCIALES OFICIALES" title="Certificados de" highlight="Ciberseguridad" subtitle="4 acreditaciones profesionales que respaldan mi nivel técnico y metodológico" />
+            <SectionHeading tag="// 05. CREDENCIALES OFICIALES" title="Certificados de" highlight="Ciberseguridad" subtitle="4 acreditaciones profesionales que respaldan mi nivel técnico y metodológico" />
             <div className="certificates-grid">
               {certificates.map((certificate) => (
                 <article className="cert-card glow-box" key={certificate.id}>
@@ -532,7 +585,7 @@ function App() {
 
         <section id="contacto" className="section contacto-section">
           <div className="container">
-            <SectionHeading tag="// 05. CANAL ENCRIPTADO DE CANALIZACIÓN" title="Iniciar" highlight="Contacto" subtitle="¿Tienes un proyecto, auditoría o vacante en ciberseguridad? Envía un mensaje directo." />
+            <SectionHeading tag="// 06. CANAL ENCRIPTADO DE CANALIZACIÓN" title="Iniciar" highlight="Contacto" subtitle="¿Tienes un proyecto, auditoría o vacante en ciberseguridad? Envía un mensaje directo." />
             <div className="contacto-wrapper glow-box">
               <div className="contacto-info">
                 <h3><i className="fa-solid fa-satellite" /> Datos de Conexión Directa</h3>

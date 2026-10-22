@@ -985,6 +985,12 @@ body {
     gap: 2rem;
 }
 
+.reports-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 .project-card {
     padding: 2rem;
     display: flex;
@@ -1041,6 +1047,14 @@ body {
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
     flex-grow: 1;
+}
+
+.report-rating {
+    display: flex;
+    gap: 0.35rem;
+    color: #ffd166;
+    margin: 0 0 1.5rem;
+    font-size: 1rem;
 }
 
 .project-tags {
@@ -1614,7 +1628,8 @@ body {
    12. RESPONSIVE BREAKPOINTS
    -------------------------------------------------------------------------- */
 @media (max-width: 1024px) {
-    .projects-grid {
+    .projects-grid,
+    .reports-grid {
         grid-template-columns: repeat(2, 1fr);
     }
     .hero-container {
@@ -1641,6 +1656,7 @@ body {
     }
     .sobre-mi-grid,
     .projects-grid,
+    .reports-grid,
     .certificates-grid,
     .contacto-wrapper {
         grid-template-columns: 1fr;
