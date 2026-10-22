@@ -451,7 +451,7 @@ function App() {
               <div className="bio-card glow-box">
                 <div className="card-corner top-left" /><div className="card-corner bottom-right" />
                 <div className="bio-header"><div className="avatar-box"><i className="fa-solid fa-user-secret" /></div><div><h3>Jofrandev</h3><p className="bio-subtitle">Programador y Analista de Ciberseguridad</p></div></div>
-                <p className="bio-text">Apasionado de la ciberseguridad con enfoque analítico y capacidad de desarrollo full-stack orientado a la protección. Combino la lógica de programación rigurosa con metodologías de hacking ético para auditorías, detección proactiva de amenazas y blindaje de aplicaciones web e infraestructura de red.</p>
+                <p className="bio-text">Apasionado de la ciberseguridad con enfoque analítico y capacidad de desarrollo orientado a la protección. Combino la lógica de programación rigurosa con metodologías de hacking ético para auditorías, detección proactiva de amenazas y blindaje de aplicaciones web e infraestructura de red.</p>
                 <p className="bio-text">Mi filosofía se centra en la &quot;Seguridad desde el Diseño&quot; (Security by Design), automatizando análisis de vulnerabilidades y creando herramientas personalizadas para responder de forma ágil a vectores de ataque modernos.</p>
                 <div className="stats-mini-grid">
                   {stats.map(([, suffix, label], index) => (
