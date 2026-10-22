@@ -1177,17 +1177,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
     border-top: 1px solid var(--border-cyan);
     padding-top: 1rem;
+}
+
+.cert-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .cert-id {
     font-family: var(--font-mono);
     font-size: 0.78rem;
     color: var(--text-muted);
+    overflow-wrap: anywhere;
 }
 
 .btn-cert-view {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     background: transparent;
     border: 1px solid var(--primary-cyan);
     color: var(--primary-cyan);
@@ -1198,6 +1210,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: all var(--transition-fast);
+    text-decoration: none;
 }
 
 .btn-cert-view:hover {

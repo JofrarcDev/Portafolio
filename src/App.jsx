@@ -83,7 +83,8 @@ const certificates = [
     icon: 'fa-shield-virus',
     title: 'Google CyberSecurity',
     issuer: 'Google | Coursera Professional Certificate',
-    id: ' OUV0R6XV7021',
+    id: 'OUV0R6XV7021',
+    url: 'https://www.coursera.org/account/accomplishments/professional-cert/certificate/OUV0R6XV7021',
     description:
       'Certificación estándar internacional en arquitectura de seguridad, gestión de riesgos, criptografía y respuesta proactiva ante amenazas.',
     details:
@@ -94,6 +95,7 @@ const certificates = [
     title: 'Tools of the Trade: Linux and SQL for Cybersecurity',
     issuer: 'Google | Coursera Professional Certificate',
     id: 'GVGB9RZJUOWL',
+    url: 'https://coursera.org/share/3acea24642e6490767b6a2b10fcfb027',
     description:
       'Dominio de herramientas y técnicas de ciberseguridad para la gestión de incidentes y el análisis de amenazas.',
     details:
@@ -103,7 +105,8 @@ const certificates = [
     icon: 'fa-terminal',
     title: 'Connect and Protect: Networks and Networks Security',
     issuer: 'Google | Coursera Certificate',
-    id: ' TIF9W6W14Y82',
+    id: 'TIF9W6W14Y82',
+    url: 'https://coursera.org/share/f0311e21c44dcc8cff46499b1ace6ba0',
     description:
       'Comprensión de redes, protocolos y técnicas de protección para asegurar la integridad y confidencialidad de los datos.',
     details:
@@ -114,6 +117,7 @@ const certificates = [
     title: 'Front end Development',
     issuer: 'Oracle next education / Alura Latam',
     id: 'cf0784df-db88-4e6b-a782-9143489937ae',
+    url: 'https://github.com/JofrarcDev/certificados/blob/master/Certificado%20front%20end%20g4%20one.png',
     description:
       'Especializacion en desarrollo frontend para plataformas web seguras.',
     details:
@@ -513,7 +517,12 @@ function App() {
                   <p className="cert-desc">{certificate.description}</p>
                   <div className="cert-footer">
                     <span className="cert-id"><i className="fa-solid fa-fingerprint" /> ID: {certificate.id}</span>
-                    <button className="btn-cert-view" onClick={() => setModal({ type: 'certificate', ...certificate })}>Ver Credencial</button>
+                    <div className="cert-actions">
+                      <button className="btn-cert-view" onClick={() => setModal({ type: 'certificate', ...certificate })}>Ver Credencial</button>
+                      <a className="btn-cert-view" href={certificate.url} target="_blank" rel="noopener noreferrer">
+                        Ver Certificado <i className="fa-solid fa-arrow-up-right-from-square" />
+                      </a>
+                    </div>
                   </div>
                 </article>
               ))}
