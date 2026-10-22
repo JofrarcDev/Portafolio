@@ -168,7 +168,7 @@ const stats = [
   ['99', '%', 'Mitigación Eficiente'],
 ];
 
-const email = 'jofrandev.cyber@gmail.com';
+const email = '';
 const commands = [
   'nmap -sV -p 1-65535 192.168.1.1',
   'python3 cybershield_cli.py --scan-vulns',
@@ -590,9 +590,9 @@ function App() {
                 <h3><i className="fa-solid fa-satellite" /> Datos de Conexión Directa</h3>
                 <p>Disponible para auditorías de seguridad, consultorías de código seguro, análisis SOC y colaboración en proyectos open-source.</p>
                 <div className="info-items">
-                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-envelope" /></div><div><span className="info-label">Correo Electrónico Directo</span><div className="email-copy-box"><span>{email}</span><button className="btn-copy" title="Copiar correo" aria-label="Copiar correo" onClick={copyEmail}><i className={`fa-solid ${copied ? 'fa-check' : 'fa-copy'}`} /></button></div></div></div>
-                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-location-dot" /></div><div><span className="info-label">Ubicación &amp; Modalidad</span><span className="info-val">Remoto / Híbrido | Disponibilidad Global</span></div></div>
-                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-key" /></div><div><span className="info-label">Clave PGP Fingerprint</span><span className="info-val code-text">4A89 F290 11C2 B902 SEC7</span></div></div>
+                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-envelope" /></div></div>
+                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-location-dot" /></div></div>
+                  <div className="info-item"><div className="info-icon"><i className="fa-solid fa-key" /></div></div>
                 </div>
                 <div className="social-cyber-links">
                   <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-cyber-btn"><i className="fa-brands fa-github" /> <span>GitHub</span></a>
