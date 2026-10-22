@@ -81,9 +81,9 @@ const projects = [
 const certificates = [
   {
     icon: 'fa-shield-virus',
-    title: 'CompTIA Security+',
-    issuer: 'CompTIA | Credencial Global',
-    id: 'SEC-894102-JOFRAN',
+    title: 'Google CyberSecurity',
+    issuer: 'Google | Coursera Professional Certificate',
+    id: ' OUV0R6XV7021',
     description:
       'Certificación estándar internacional en arquitectura de seguridad, gestión de riesgos, criptografía y respuesta proactiva ante amenazas.',
     details:
@@ -91,33 +91,33 @@ const certificates = [
   },
   {
     icon: 'fa-user-ninja',
-    title: 'Certified Ethical Hacker (CEH)',
-    issuer: 'EC-Council | v12 Practical',
-    id: 'ECC-338192-ETH',
+    title: 'Tools of the Trade: Linux and SQL for Cybersecurity',
+    issuer: 'Google | Coursera Professional Certificate',
+    id: 'GVGB9RZJUOWL',
     description:
-      'Dominio de vectores de ataque, metodologías de footprinting, scanning, enumeración, explotación del lado del servidor y análisis malware.',
+      'Dominio de herramientas y técnicas de ciberseguridad para la gestión de incidentes y el análisis de amenazas.',
     details:
-      'Acreditación en metodología de Hacking Ético, pruebas de penetración defensivas y análisis de vulnerabilidades.',
+      'Especialización en Linux, SQL y herramientas de análisis de seguridad para la detección y mitigación de vulnerabilidades.',
   },
   {
     icon: 'fa-terminal',
-    title: 'OSCP - Offensive Security',
-    issuer: 'OffSec | Certified Professional',
-    id: 'OS-441209-PENTEST',
+    title: 'Connect and Protect: Networks and Networks Security',
+    issuer: 'Google | Coursera Certificate',
+    id: ' TIF9W6W14Y82',
     description:
-      'Evaluación 100% práctica de laboratorio. Habilidad demostrada en la explotación manual de vulnerabilidades, escalada de privilegios y pivoteo.',
+      'Comprensión de redes, protocolos y técnicas de protección para asegurar la integridad y confidencialidad de los datos.',
     details:
-      'Certificación de alto nivel práctico en pruebas de penetración profundas, escalada de privilegios y explotación.',
+      'Especialización en redes seguras y técnicas de protección contra amenazas cibernéticas.'
   },
   {
     icon: 'fa-file-contract',
-    title: 'ISO/IEC 27001 Lead Implementer',
-    issuer: 'PECB / International Standard',
-    id: 'ISO-27001-99831',
+    title: 'Front end Development',
+    issuer: 'Oracle next education / Alura Latam',
+    id: 'cf0784df-db88-4e6b-a782-9143489937ae',
     description:
-      'Implementación y auditoría de Sistemas de Gestión de Seguridad de la Información (SGSI), políticas de seguridad y análisis de riesgos normativos.',
+      'Especializacion en desarrollo frontend para plataformas web seguras.',
     details:
-      'Especialización en estándares internacionales de gobernanza, políticas de ciberseguridad y gestión continua de riesgos.',
+      'Especialización en tecnologías frontend para el desarrollo de aplicaciones web seguras.',
   },
 ];
 
@@ -500,7 +500,6 @@ function App() {
             </div>
           </div>
         </section>
-
         <section id="certificados" className="section certificados-section">
           <div className="container">
             <SectionHeading tag="// 04. CREDENCIALES OFICIALES" title="Certificados de" highlight="Ciberseguridad" subtitle="4 acreditaciones profesionales que respaldan mi nivel técnico y metodológico" />
@@ -582,6 +581,7 @@ function App() {
       </div>
     </>
   );
-}
+};
+
 
 export default App;
